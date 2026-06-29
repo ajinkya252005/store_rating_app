@@ -53,7 +53,7 @@ const Login = () => {
             Find the stores<br />worth visiting.
           </h1>
           <p className="text-gray-500 text-base mb-10 leading-relaxed max-w-sm">
-            Real ratings from real customers. Help local businesses grow — or find your next favourite spot.
+            Real ratings from real customers. Help local businesses grow or find your next favourite spot.
           </p>
 
           {/* Feature bullets */}
@@ -71,7 +71,7 @@ const Login = () => {
           </div>
         </div>
 
-        <p className="text-xs text-gray-400">© 2025 StoreRate. All rights reserved.</p>
+        <p className="text-xs text-gray-400">© 2026 StoreRate. All rights reserved.</p>
       </div>
 
       {/* ── Right panel ── clean form */}

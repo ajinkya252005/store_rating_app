@@ -52,7 +52,7 @@ const signup = async (req, res) => {
 
 // ─────────────────────────────────────────────────────────────────
 // POST /api/auth/login
-// Public endpoint — authenticates any user, returns JWT
+// Public endpoint : authenticates any user, returns JWT
 // ─────────────────────────────────────────────────────────────────
 const login = async (req, res) => {
   try {

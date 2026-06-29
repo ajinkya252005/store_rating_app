@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'http://localhost:5000/api', // Pointing to your Express backend
+  baseURL: 'http://localhost:5000/api', // Pointing to Express backend
 });
 
 // Add an interceptor to inject the token into headers

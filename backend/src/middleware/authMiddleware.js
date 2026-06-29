@@ -24,7 +24,7 @@ const verifyToken = (req, res, next) => {
 };
 
 /**
- * Role-guard middleware factory.
+ * Role-guard middleware.
  * Usage: requireRole('SYSTEM_ADMIN') or requireRole('NORMAL_USER', 'STORE_OWNER')
  */
 const requireRole = (...roles) => (req, res, next) => {
